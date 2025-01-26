@@ -1,0 +1,92 @@
+body,
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: darkblue;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    height: 70vh;
+    width: 40vw;
+    border-radius: 20px;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+.input-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 76%;
+    align-items: center;
+}
+
+.task-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+
+}
+
+.task-box-design {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+}
+
+.task-design {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+#task-bg {
+    background-color: whitesmoke;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#taskContainer {
+    width: 70%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dlt-img {
+    display: none;
+    border: none;
+}
+
+.task-box:hover .dlt-img {
+    display: block;
+}
+
+.task-box.completed {
+    background-color:darkgray;
+    
+}
+.task-box.completed .dlt-img{
+    background-color: darkgrey;
+}
